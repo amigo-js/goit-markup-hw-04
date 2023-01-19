@@ -154,12 +154,34 @@ img {
 /* -------------------------- MAIN -------------------- section */
 
 .main {
-  background-color: var(--main-dark-color);
+  /* background-color: var(--main-dark-color); */
+  background-image: url(../images/people-office.jpg);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
   align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  /* background: rgba(46, 47, 66, 0.7); */
 }
+
+.attitudes-icon-list {
+  display: flex;
+}
+
+.attitudes-icon-item {
+  margin-right: 24px;
+  background-color: #f4f4fd;
+  /* border-color: #f4f4fd; */
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 24px 100px;
+}
+.attitudes-icon-item:last-child {
+  margin-right: 0;
+}
+
 .main-header {
   font-size: 56px;
   line-height: 1.07;
@@ -303,6 +325,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-dark-color);
+  margin-bottom: 8px;
 }
 
 .photo-caption {
@@ -311,6 +334,43 @@ img {
   text-align: center;
   transition: bottom 0.5s ease;
   align-items: center;
+}
+
+.photo-caption-soc-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  /* fill: #4d5ae5; */
+}
+
+.photo-caption-soc-item {
+  width: 40px;
+  height: 40px;
+  /* fill: #4d5ae5; */
+  /* padding: 12px; */
+}
+.photo-caption-soc-link {
+  width: 100%;
+  height: 100%;
+  /* fill: #4d5ae5; */
+  /* background-color: #ffffff;  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* padding: 12px; */
+}
+
+.photo-caption-soc-link:is(:hover, :focus) {
+  background-color: rgb(71, 27, 20);
+}
+
+.photo-caption-soc-icon {
+  /* padding: 12px; */
+  /* gap: 12px; */
+  fill: #F4F4FD;;
+  background: #4d5ae5;
+  /* padding: 12px; */
 }
 
 /* ----------------------- FOOTER ------------------- section */
