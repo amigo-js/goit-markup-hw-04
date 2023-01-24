@@ -454,6 +454,12 @@ img {
   margin-right: 24px;
   box-sizing: border-box;
 }
+
+.portfolio-buttons-item:last-child {
+  margin-right: 0;
+ 
+}
+
 .portfolio-buttons-list {
   display: flex;
   align-items: center;
@@ -495,6 +501,10 @@ img {
   box-sizing: border-box;
   margin-bottom: 48px;
 }
+.portfolio-product-item:last-child(3n+3) {
+  margin-right: 0;
+}
+
 .portfolio-product-item-header {
   font-weight: 500;
   font-size: 20px;
