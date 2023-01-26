@@ -214,11 +214,13 @@ img {
   min-width: 169px;
   min-height: 56px;
   gap: 10px;
+  border: 1px solid transparent;
 }
 
 .main-btn:focus,
 .main-btn:hover {
   background: var(--focus-and-hover-color);
+  border: 1px solid transparent;
 }
 
 /* ------------------- ATTITUDES --------------------- section */
@@ -542,7 +544,6 @@ img {
   border: 1px solid var(--focus-and-hover-color);
 }
 
-
 .portfolio-products-wrap {
   display: flex;
 }
@@ -569,7 +570,7 @@ img {
 
 .portfolio-product-item:hover,
 .portfolio-product-item:focus {
-  border: 1px solid var(--light-color);
+  border: 0.5px solid var(--light-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
