@@ -414,8 +414,19 @@ img {
   justify-content: center;
   width: 168px;
   height: 88px;
+  fill: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+}
+
+.customers-icon-link:hover,
+.customers-icon-link:focus {
+  border-color: #404bbf;
+}
+
+.customers-icon-link:hover .customers-icon,
+.customers-icon-link:focus .customers-icon {
+  fill: #404bbf;
 }
 
 /* ----------------------- FOOTER ------------------- section */
